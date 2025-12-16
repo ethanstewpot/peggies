@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+    <head>
+        <title>"Playpeggie"</title>
+        <meta charset="UTF8" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/main.js" defer></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Petit+Formal+Script&family=Mountains+of+Christmas&family=Sour+Gummy&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <h1 class="main_heading">PLAYPEGGIE</h1>
+            <h2 class="main_sub_heading">
+                The hottest Guinea Pigs on the internet
+            </h2>
+        </header>
+        <div id="navbar"></div>
+
+        <div id="hero-container"></div>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                createHero({
+                    containerId: "hero-container",
+                    imgSrc: "images/christmas/christmas_card_1.png",
+                    imgAlt: "Peggie Santa",
+                    title: "Christmas Special!",
+                    fontClass: "christmas_font",
+                });
+            });
+        </script>
+
+        <script>
+            loadNavbar();
+            loadHero();
+        </script>
+        <!--
+        <script>
+            loadNavbar();
+        </script>
+<nav class="sticky-nav">
+            <a href="/">Home</a>
+            <div class="dropdown">
+                <a href="/#peggies">Our Peggies</a>
+                <div class="dropdown-content">
+                    <a href="/peggies/beach.html">Fun in the sun</a>
+                    <a href="/peggies/cocktail/">Black tie evening</a>
+                    <a href="/peggies/pool/">Cool at the pool</a>
+                </div>
+            </div>
+            <a href="/shop/">Shop</a>
+        </nav>
+
+        -->
+        <!--         <section class="section-hero">
+            <img
+                src="images/christmas/christmas_card_1.png"
+                alt="Photos background"
+                class="section-hero-image"
+            />
+            <h2 class="christmas_title">Christmas Special!</h2>
+        </section>
+        <section class="side-by-side">
+            <div class="side-image">
+                <img src="images/christmas/betty.png" alt="" />
+            </div>
+            <div class="side-text">
+                <p class="christmas_body">
+                    Its Christmas in Peggy Land and everyone is very excited.
+                    Betty is wondering if christmas trees are good to eat.
+                </p>
+            </div>
+        </section>
+
+        -->
+        <section class="side-by-side reverse">
+            <div class="side-image">
+                <img src="images/christmas/barry.png" alt="" />
+            </div>
+            <div class="side-text">
+                <p class="peggie_body peggie_font">
+                    Barry has found some presents, lucky Barry! Barry likes
+                    presents but doesn't understand exactly how they work.
+                </p>
+            </div>
+        </section>
+        <section class="side-by-side">
+            <div class="side-image">
+                <img src="images/christmas/snowman.png" alt="" />
+            </div>
+            <div class="side-text">
+                <p class="christmas_body">
+                    Its snowy outside and Peggy Land has been transformed into a
+                    winter wonderland, how exciting! Sandra has found a snowman
+                    with a lovely carrot for a nose. Sandra loves a nice big
+                    carrot.
+                </p>
+            </div>
+        </section>
+
+        <section class="side-by-side reverse">
+            <div class="side-image">
+                <img src="images/christmas/skate_3.png" alt="" />
+            </div>
+            <div class="side-text">
+                <p class="christmas_body">
+                    The Peggies have gone to New York for a bit of last minute
+                    christmas shopping. These Peggies really like shopping,
+                    especially with the PLAYPEGGIE credit card. They've stopped
+                    off at Central Park for a spot of ice skating. Such elegant
+                    and graceful Peggies!
+                </p>
+            </div>
+        </section>
+    </body>
+</html>

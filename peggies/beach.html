@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+    <head>
+        <title>"Fun in the Sun"</title>
+        <meta charset="UTF8" />
+        <link rel="stylesheet" href="/css/main.css" />
+        <script src="../js/main.js" defer></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Petit+Formal+Script&family=Mountains+of+Christmas&family=Sour+Gummy&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="navbar"></div>
+
+        <div id="hero-container"></div>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                createHero({
+                    containerId: "hero-container",
+                    imgSrc: "/images/beach/hoff.png",
+                    imgAlt: "David Peggiehoff",
+                    title: "Summer fun time!",
+                    fontClass: "peggie_font",
+                });
+            });
+        </script>
+
+        <h2>Beach time!</h2>
+        <script>
+            loadNavbar();
+            loadHero();
+        </script>
+        <section>
+            <p class="peggie_body peggie_font">
+                Its Summer in Peggie Land and all the Peggies are looking
+                glamorous at the beach.
+            </p>
+
+            <img
+                src="/images/beach/beach_group.png"
+                alt=""
+                style="max-width: 100%; height: auto"
+            />
+        </section>
+        <section class="side-by-side">
+            <div class="side-image">
+                <img src="/images/beach/captain_2.png" alt="" />
+            </div>
+            <div class="side-text">
+                <p class="peggie_body peggie_font">
+                    Captain Peggy has taken all the peggies to the beach on his
+                    big fancy sail boat.
+                </p>
+            </div>
+        </section>
+        <section class="side-by-side reverse">
+            <div class="side-image">
+                <img src="/images/beach/lounger.png" alt="" />
+            </div>
+            <div class="side-text">
+                <p class="peggie_body peggie_font">
+                    Steve's motto in life is 'chill-ax to the max' and that's
+                    exactly what he's doing today. Steve has a very hard life.
+                </p>
+            </div>
+        </section>
+        <section class="side-by-side">
+            <div class="side-image">
+                <img src="/images/beach/hoff_legend.png" alt="" />
+            </div>
+            <div class="side-text">
+                <p class="peggie_body peggie_font">
+                    To make sure all the peggies stay safe on the beach David
+                    Peggiehoff is keeping guard from his lifeguard tower. David
+                    likes being on the tower because the wind makes his hair
+                    look even more epic.
+                </p>
+            </div>
+        </section>
+        <section class="side-by-side reverse">
+            <div class="side-image">
+                <img src="/images/beach/pam.png" alt="" />
+            </div>
+            <div class="side-text">
+                <p class="peggie_body peggie_font">
+                    Pamela Andiepeggie is helping David Peggiehoff keep the
+                    beach safe.
+                </p>
+            </div>
+        </section>
+        <section class="side-by-side">
+            <div class="side-image">
+                <img src="/images/beach/volly.png" alt="" />
+            </div>
+            <div class="side-text">
+                <p class="peggie_body peggie_font">
+                    To keep in shape the peggies are playing Volley ball. Its
+                    important for the Peggies to be beach body ready.
+                </p>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+    <head>
+        <title>"Cocktail Evening"</title>
+        <meta charset="UTF8" />
+        <link rel="stylesheet" href="/css/main.css" />
+        <script src="../js/main.js" defer></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Petit+Formal+Script&family=Mountains+of+Christmas&family=Sour+Gummy&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="navbar"></div>
+
+        <div id="hero-container"></div>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                createHero({
+                    containerId: "hero-container",
+                    imgSrc: "/images/cocktails/sue_couch.png",
+                    imgAlt: "Elegent Sue",
+                    title: "Peggie Cocktail Party!",
+                    fontClass: "peggie_font",
+                });
+            });
+        </script>
+
+        <h2>Beach time!</h2>
+        <script>
+            loadNavbar();
+            loadHero();
+        </script>
+        <section>
+            <p class="peggie_body peggie_font">
+                Its Cocktail evening in Peggie Land!
+            </p>
+
+            <img
+                src="/images/cocktails/cocktail_group.png"
+                alt=""
+                style="max-width: 100%; height: auto"
+            />
+        </section>
+        <section class="side-by-side">
+            <div class="side-image">
+                <img src="/images/cocktails/sue_bar.png" alt="" />
+            </div>
+            <div class="side-text">
+                <p class="peggie_body peggie_font">
+                    Peggies love cocktails and snacks. Sue has found a delicious
+                    martini and lovely platter of her favorite veggies. Sue is
+                    living the peggie dream life.
+                </p>
+            </div>
+        </section>
+        <section class="side-by-side reverse">
+            <div class="side-image">
+                <img src="/images/cocktails/water.png" alt="" />
+            </div>
+            <div class="side-text">
+                <p class="peggie_body peggie_font">
+                    Mike is making sure all the peggies stay refreshed with
+                    lovely cocktails.
+                </p>
+            </div>
+        </section>
+
+        <section class="side-by-side">
+            <div class="side-image">
+                <img src="/images/cocktails/sue_couch.png" alt="" />
+            </div>
+            <div class="side-text">
+                <p class="peggie_body peggie_font">
+                    After a hard day of looking fabulous, there's nothing Sue
+                    likes more than taking a well deserved rest by sipping a
+                    sophisticated long drink.
+                </p>
+            </div>
+        </section>
+    </body>
+</html>
