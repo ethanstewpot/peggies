@@ -11,6 +11,7 @@
         />
     </head>
     <body>
+        <h1 class="main_heading">PLAYPEGGIE</h1>
         <div id="navbar"></div>
 
         <div id="hero-container"></div>
@@ -18,15 +19,14 @@
             document.addEventListener("DOMContentLoaded", () => {
                 createHero({
                     containerId: "hero-container",
-                    imgSrc: "/images/beach/hoff.png",
+                    imgSrc: "/images/beach/beach_group.png",
                     imgAlt: "David Peggiehoff",
                     title: "Summer fun time!",
-                    fontClass: "peggie_font",
+                    fontClass: "peggie_title",
                 });
             });
         </script>
 
-        <h2>Beach time!</h2>
         <script>
             loadNavbar();
             loadHero();
@@ -36,12 +36,6 @@
                 Its Summer in Peggie Land and all the Peggies are looking
                 glamorous at the beach.
             </p>
-
-            <img
-                src="/images/beach/beach_group.png"
-                alt=""
-                style="max-width: 100%; height: auto"
-            />
         </section>
         <section class="side-by-side">
             <div class="side-image">
