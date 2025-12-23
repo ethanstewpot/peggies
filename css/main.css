@@ -71,10 +71,11 @@ body {
 }
 
 .sticky-nav a {
-    font-family: var(--font-sub-heading);
+    font-family: "Alfa Slab One";
     color: var(--text_colour_dark);
     text-decoration: none;
     font-weight: 600;
+    font-size: 1.5em;
 }
 
 .sticky-nav a:hover {
@@ -147,7 +148,7 @@ body {
 /* Titles */
 .christmas_title {
     font-family: "Mountains of Christmas";
-    font-size: 6em;
+    font-size: 9em;
     color: var(--text_colour_light);
     position: absolute;
     top: 50%; /* center vertically */
@@ -185,6 +186,22 @@ body {
     font-family: "Sour Gummy", sans-serif;
     font-size: 2em;
 }
+
+.playpeggie_inline {
+    font-family: "Alfa Slab One";
+    font-size: 0.8em;
+    color: var(--text_colour_light);
+    letter-spacing: 0.1em;
+}
+
+.shop_title {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: var(--text_colour_light);
+    text-decoration-line: underline;
+    text-decoration-color: var(--accent_pink);
+}
 .christmas_font {
     font-family: "Mountains of Christmas", cursive, sans-serif;
 }
@@ -211,7 +228,23 @@ body {
 .side-by-side.reverse {
     flex-direction: row-reverse;
 }
-
+.center_img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    height: auto;
+    padding: 4rem;
+}
+.full_img {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    height: auto;
+    padding: 4rem;
+}
+.shop_line {
+    border-top: 3px solid var(--accent_blue);
+}
 @media (max-width: 800px) {
     .side-by-side {
         flex-direction: column;
